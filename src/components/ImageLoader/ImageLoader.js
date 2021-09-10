@@ -35,8 +35,8 @@ const ImageLoader = () => {
           className={classes.dots}
           style={
             index % slides.length === 0
-              ? { backgroundColor: "black" }
-              : { backgroundColor: "white" }
+              ? { backgroundColor: "white" }
+              : { backgroundColor: "transparent" }
           }
           onClick={() => setIndex(0)}
         ></div>
@@ -44,8 +44,8 @@ const ImageLoader = () => {
           className={classes.dots}
           style={
             index % slides.length === 1
-              ? { backgroundColor: "black" }
-              : { backgroundColor: "white" }
+              ? { backgroundColor: "white" }
+              : { backgroundColor: "transparent" }
           }
           onClick={() => setIndex(1)}
         ></div>
@@ -53,8 +53,8 @@ const ImageLoader = () => {
           className={classes.dots}
           style={
             index % slides.length === 2
-              ? { backgroundColor: "black" }
-              : { backgroundColor: "white" }
+              ? { backgroundColor: "white" }
+              : { backgroundColor: "transparent" }
           }
           onClick={() => setIndex(2)}
         ></div>
