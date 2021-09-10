@@ -1,0 +1,10 @@
+.links {
+  list-style: none;
+  list-style-type: none;
+}
+.links a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 2.94rem;
+  letter-spacing: 4.7px;
+}
