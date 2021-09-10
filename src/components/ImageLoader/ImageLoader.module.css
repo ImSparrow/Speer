@@ -6,7 +6,7 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
-  will-change: opacity;
+  filter: brightness(30%);
 }
 .image {
   display: flex;
